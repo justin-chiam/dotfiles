@@ -18,7 +18,7 @@ __cse_relative_path() {
 
 csemount() {
   mkdir -p -- "$CSE_MOUNT"
-  sshfs -o idmap=user,follow_symlinks,noappledouble,noapplexattr,defer_permissions,local,volname=cse -C "$(__cse_host):" "$CSE_MOUNT"
+  sshfs -o idmap=user,follow_symlinks,noappledouble,noapplexattr,reconnect,defer_permissions,local,volname=cse -C "$(__cse_host):" "$CSE_MOUNT"
 }
 
 cseumount() {
