@@ -43,7 +43,7 @@
     "editor.acceptSuggestionOnEnter": "off",
     "editor.accessibilitySupport": "off",
     "editor.autoIndentOnPaste": true,
-    // "editor.hover.enabled": false,
+    "editor.hover.enabled": false,
     "editor.renderWhitespace": "none",
     "editor.semanticHighlighting.enabled": true,
     "explorer.compactFolders": false,
