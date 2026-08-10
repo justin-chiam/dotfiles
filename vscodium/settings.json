@@ -34,6 +34,9 @@
     "catppuccin.italicComments": false,
     "catppuccin.italicKeywords": false,
     "chat.agentsControl.enabled": false,
+    "clangd.arguments": [
+        "--header-insertion=never"
+    ],
     "discord.detailsDebugging": "Editing a {LANG} file",
     "discord.detailsEditing": "Editing a {LANG} file",
     "discord.lowerDetailsDebugging": "",
