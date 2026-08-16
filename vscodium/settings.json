@@ -46,7 +46,8 @@
     "editor.acceptSuggestionOnEnter": "off",
     "editor.accessibilitySupport": "off",
     "editor.autoIndentOnPaste": true,
-    "editor.hover.enabled": false,
+    "editor.hover.enabled": "off",
+    "editor.inlayHints.enabled": "off",
     "editor.renderWhitespace": "none",
     "editor.semanticHighlighting.enabled": true,
     "explorer.compactFolders": false,
@@ -102,6 +103,7 @@
         "REMOTE_COMMANDS"
     ],
     "svelte.enable-ts-plugin": true,
+    "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.defaultProfile.osx": "zsh",
     "terminal.integrated.fontFamily": "MesloLGS NF",
     "terminal.integrated.gpuAcceleration": "off",
