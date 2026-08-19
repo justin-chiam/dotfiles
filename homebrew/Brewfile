@@ -9,6 +9,8 @@ brew "openssl@3"
 brew "sqlite"
 # Official Amazon AWS command-line interface
 brew "awscli"
+# Text-based UI library
+brew "ncurses"
 # Programmable completion for Bash 3.2
 brew "bash-completion"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -23,8 +25,12 @@ brew "btop"
 brew "cava"
 # Console Bonsai is a bonsai tree generator, written in C using ncurses
 brew "cbonsai"
+# Formatting tools for C, C++, Obj-C, Java, JavaScript, TypeScript
+brew "clang-format"
 # Cross-platform make
 brew "cmake"
+# Console Matrix
+brew "cmatrix"
 # Secure runtime for JavaScript and TypeScript
 brew "deno"
 # Pack, ship and run any application as a lightweight container
@@ -38,17 +44,19 @@ brew "fastfetch"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
 # Play, record, convert, and stream select audio and video codecs
-brew "ffmpeg", link: false
+brew "ffmpeg"
 # GNU multiple precision arithmetic library
 brew "gmp"
 # Play, record, convert, and stream many audio and video codecs
-brew "ffmpeg-full", link: true
+brew "ffmpeg-full"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # GNU compiler collection
 brew "gcc"
+# GNU compiler collection
+brew "gcc@14"
 # GNU debugger
 brew "gdb"
 # GitHub command-line tool
@@ -101,6 +109,8 @@ brew "scc"
 brew "sleepwatcher", restart_service: :changed
 # Cross-shell prompt for astronauts
 brew "starship"
+# Organize software neatly under a single directory tree (e.g. /usr/local)
+brew "stow"
 # User interface to the TELNET protocol
 brew "telnet"
 # Free software distribution for the TeX typesetting system
@@ -141,6 +151,8 @@ cask "arduino-ide"
 cask "backdrop"
 # Display management tool
 cask "betterdisplay"
+# Virtual Audio Driver
+cask "blackhole-2ch"
 # Web security testing toolkit
 cask "burp-suite"
 # Utility that prevents the system from going to sleep
@@ -170,6 +182,8 @@ cask "figma"
 # Markdown previews in Finder QuickLook with diagrams and math
 cask "xykong/tap/flux-markdown", trusted: true
 cask "font-fira-code"
+cask "font-jetbrains-mono"
+cask "font-liberation-nerd-font"
 cask "font-symbols-only-nerd-font"
 # Set of tools to manage resources and applications hosted on Google Cloud
 cask "gcloud-cli"
@@ -203,6 +217,8 @@ cask "macfuse"
 cask "mactex"
 # Minecraft modding platform
 cask "modrinth"
+# VPN client
+cask "mullvad-vpn"
 # Open-source music notation software
 cask "musescore"
 # Open-source software for live streaming and screen recording
@@ -247,6 +263,8 @@ cask "tuta-mail"
 cask "typeless"
 # Multimedia player
 cask "vlc"
+# Menu bar toolkit with keep-awake, system monitor and volume mixer
+cask "vorssaint"
 # Binary releases of VS Code without MS branding/telemetry/licensing
 cask "vscodium"
 # Live wallpaper app
