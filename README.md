@@ -8,6 +8,6 @@ Personal config files for my dev setup, deployed with [dotter](https://github.co
 brew install dotter
 git clone https://github.com/justin-chiam/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
-cp .dotter/local.example.toml .dotter/local.toml    # update variables
+cp .dotter/local.example.toml .dotter/local.toml    # then, update variables
 dotter deploy
 ```
