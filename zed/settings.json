@@ -13,6 +13,9 @@
     "favorite_models": [],
     "model_parameters": []
   },
+  "edit_predictions": {
+    "provider": "none"
+  },
   "tabs": {
     "git_status": true,
     "file_icons": true
