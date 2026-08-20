@@ -1,4 +1,4 @@
-# Written for MacOS
+# Source this file from ~/.zshrc, then override CSE_ZID or CSE_MOUNT if needed.
 
 : "${CSE_ZID:=z5555555}"
 : "${CSE_MOUNT:=$HOME/cse}"
@@ -18,7 +18,7 @@ __cse_relative_path() {
 
 csemount() {
   mkdir -p -- "$CSE_MOUNT"
-  sshfs -o idmap=user,follow_symlinks,noappledouble,noapplexattr,reconnect,defer_permissions,local,volname=cse -C "$(__cse_host):" "$CSE_MOUNT"
+  sshfs -o idmap=user,follow_symlinks,noappledouble,noapplexattr,reconnect,ServerAliveInterval=15,ServerAliveCountMax=3,defer_permissions,local,volname=cse -C "$(__cse_host):" "$CSE_MOUNT"
 }
 
 cseumount() {

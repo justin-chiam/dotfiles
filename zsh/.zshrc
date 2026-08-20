@@ -40,7 +40,8 @@ export HOMEBREW_NO_ENV_HINTS=1
 export SSH_AUTH_SOCK="$HOME/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
 
 # CSE
-export BIWA_SSH_USER=z5555555
+export CSE_ZID={{ zid }}
+export BIWA_SSH_USER={{ zid }}
 export BIWA_SSH_HOST=login.cse.unsw.edu.au
 
 # ---- Scripts ----
