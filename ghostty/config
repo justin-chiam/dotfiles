@@ -1,4 +1,18 @@
-font-family = MesloLGS NF
 theme = Catppuccin Mocha
+font-family = MesloLGS NF
+font-size = 13
+cursor-style = block
+cursor-style-blink = false
 
+macos-titlebar-style = tabs
 macos-option-as-alt = left
+macos-secure-input-indication = false
+
+shell-integration-features = no-cursor,sudo,title,ssh-env,ssh-terminfo,path
+copy-on-select = clipboard
+link-url = true
+
+window-padding-x = 0
+window-padding-y = 0
+window-padding-balance = true
+window-padding-color = extend
