@@ -7,8 +7,9 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "ui_font_family": ".ZedSans",
   "buffer_font_family": "Menlo",
-  "icon_theme": "VSCode Icons for Zed (Dark Angular)",
+  "icon_theme": "Soft Charmed Icons",
   "cli_default_open_behavior": "existing_window",
   "disable_ai": true,
   "telemetry": {
@@ -20,7 +21,7 @@
     "trust_all_worktrees": true
   },
   "terminal": {
-    "font_size": 14.0,
+    "font_size": 13.0,
     "font_family": "MesloLGS NF"
   },
   "project_panel": {
@@ -60,7 +61,7 @@
       "type": "registry"
     }
   },
-  "ui_font_size": 16,
+  "ui_font_size": 15.0,
   "buffer_font_size": 14.0,
   "theme": {
     "mode": "system",
