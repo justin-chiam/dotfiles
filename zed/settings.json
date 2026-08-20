@@ -55,7 +55,6 @@
     ]
   },
   "show_whitespaces": "none",
-  "semantic_tokens": "full",
   "agent_servers": {
     "github-copilot-cli": {
       "type": "registry"
@@ -76,6 +75,12 @@
     "mode": "system",
     "light": "Ayu Light",
     "dark": "Catppuccin Mocha - No Italics",
+  },
+  "theme_overrides": {
+    "Catppuccin Mocha - No Italics": {
+      "border": "#1E1E2E",
+      "border.variant": "#1E1E2E",
+    },
   },
   "lsp": {
     "discord_presence": {
