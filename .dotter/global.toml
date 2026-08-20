@@ -1,0 +1,35 @@
+[settings]
+default_target_type = "symbolic"
+
+[ghostty.files]
+"ghostty/config" = "~/.config/ghostty/config"
+
+[nvim.files]
+"nvim" = { target = "~/.config/nvim", type = "symbolic", recurse = false }
+
+[zsh.files]
+"zsh/.zshrc"   = { target = "~/.zshrc", type = "template" }
+"zsh/cse.zsh"  = "~/.config/zsh/scripts/cse.zsh"
+"zsh/1521.zsh" = "~/.config/zsh/scripts/1521.zsh"
+
+[tmux.files]
+"tmux/.tmux.conf" = "~/.tmux.conf"
+
+[git.files]
+"git/.gitignore_global" = "~/.gitignore_global"
+
+[rclone.files]
+"rclone/rclone.conf" = { target = "~/.config/rclone/rclone.conf", type = "template" }
+
+[vscodium.files]
+"vscodium/settings.json"    = { target = "~/Library/Application Support/VSCodium/User/settings.json", type = "template" }
+"vscodium/keybindings.json" = "~/Library/Application Support/VSCodium/User/keybindings.json"
+
+[obsidian.files]
+"obsidian/app.json"               = "~/Library/Mobile Documents/com~apple~CloudDocs/Obsidian Vault/.obsidian/app.json"
+"obsidian/appearance.json"        = "~/Library/Mobile Documents/com~apple~CloudDocs/Obsidian Vault/.obsidian/appearance.json"
+"obsidian/core-plugins.json"      = "~/Library/Mobile Documents/com~apple~CloudDocs/Obsidian Vault/.obsidian/core-plugins.json"
+"obsidian/community-plugins.json" = "~/Library/Mobile Documents/com~apple~CloudDocs/Obsidian Vault/.obsidian/community-plugins.json"
+
+[homebrew]
+[iterm2]
