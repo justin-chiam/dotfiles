@@ -7,6 +7,12 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "agent": {
+    "dock": "right",
+    "button": true,
+    "favorite_models": [],
+    "model_parameters": []
+  },
   "tabs": {
     "git_status": true,
     "file_icons": true
@@ -20,7 +26,6 @@
   "buffer_font_family": "Menlo",
   "icon_theme": "Soft Charmed Icons",
   "cli_default_open_behavior": "existing_window",
-  "disable_ai": true,
   "telemetry": {
     "diagnostics": false,
     "metrics": false,
@@ -30,8 +35,9 @@
     "trust_all_worktrees": true
   },
   "terminal": {
-    "font_size": 13.0,
-    "font_family": "MesloLGS NF"
+    "font_size": 12.0,
+    "font_family": "MesloLGS NF",
+    "copy_on_select": true
   },
   "project_panel": {
     "dock": "left",
@@ -55,11 +61,68 @@
     ]
   },
   "show_whitespaces": "none",
+  "hover_popover_enabled": false,
+  "format_on_save": "off",
+  "diagnostics": {
+    "inline": {
+      "enabled": true
+    }
+  },
+  "file_scan_exclusions": [
+    "**/.git",
+    "**/.svn",
+    "**/.hg",
+    "**/.jj",
+    "**/CVS",
+    "**/.DS_Store",
+    "**/Thumbs.db",
+    "**/.classpath",
+    "**/.settings",
+    "**/*.dSYM"
+  ],
+  "languages": {
+    "C": {
+      "wrap_guides": [
+        80
+      ],
+      "show_wrap_guides": true
+    },
+    "LaTeX": {
+      "soft_wrap": "editor_width"
+    },
+    "Plain Text": {
+      "soft_wrap": "editor_width"
+    },
+    "Python": {
+      "formatter": {
+        "language_server": {
+          "name": "ruff"
+        }
+      }
+    }
+  },
+  "auto_install_extensions": {
+    "catppuccin": true,
+    "charmed-icons": true,
+    "discord-presence": true,
+    "basedpyright": true,
+    "ruff": true,
+    "svelte": true,
+    "typst": true,
+    "latex": true,
+    "dockerfile": true,
+    "docker-compose": true,
+    "toml": true
+  },
   "agent_servers": {
     "github-copilot-cli": {
       "type": "registry"
     },
     "claude-acp": {
+      "default_config_options": {
+        "mode": "auto",
+        "fast": false
+      },
       "type": "registry"
     },
     "cursor": {
@@ -70,7 +133,7 @@
     }
   },
   "ui_font_size": 15.0,
-  "buffer_font_size": 14.0,
+  "buffer_font_size": 12.0,
   "theme": {
     "mode": "system",
     "light": "Ayu Light",
@@ -82,7 +145,37 @@
       "border.variant": "#1E1E2E",
     },
   },
+  "scrollbar": {
+    "axes": {
+      "horizontal": false
+    }
+  },
+  "title_bar": {
+    "show_user_picture": false,
+  },
   "lsp": {
+    "clangd": {
+      "binary": {
+        "arguments": [
+          "--header-insertion=never"
+        ]
+      }
+    },
+    "basedpyright": {
+      "settings": {
+        "basedpyright": {
+          "analysis": {
+            "typeCheckingMode": "basic",
+            "inlayHints": {
+              "variableTypes": false,
+              "genericTypes": false,
+              "functionReturnTypes": false,
+              "callArgumentNames": false
+            }
+          }
+        }
+      }
+    },
     "discord_presence": {
       "initialization_options": {
         "application_id": "1263505205522337886",
