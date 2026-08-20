@@ -31,5 +31,8 @@ default_target_type = "symbolic"
 "obsidian/core-plugins.json"      = "~/Library/Mobile Documents/com~apple~CloudDocs/Obsidian Vault/.obsidian/core-plugins.json"
 "obsidian/community-plugins.json" = "~/Library/Mobile Documents/com~apple~CloudDocs/Obsidian Vault/.obsidian/community-plugins.json"
 
+[zed.files]
+"zed/settings.json" = "~/.config/zed/settings.json"
+
 [homebrew]
 [iterm2]
