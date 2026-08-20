@@ -33,6 +33,7 @@ default_target_type = "symbolic"
 
 [zed.files]
 "zed/settings.json" = "~/.config/zed/settings.json"
+"zed/keymap.json"   = "~/.config/zed/keymap.json"
 
 [homebrew]
 [iterm2]
