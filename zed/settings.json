@@ -67,8 +67,10 @@
   "hover_popover_enabled": false,
   "format_on_save": "off",
   "diagnostics": {
+    "include_warnings": true,
     "inline": {
-      "enabled": true
+      "enabled": true,
+      "padding": 4,
     }
   },
   "file_scan_exclusions": [
