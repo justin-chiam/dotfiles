@@ -9,8 +9,9 @@ default_target_type = "symbolic"
 
 [zsh.files]
 "zsh/.zshrc"   = { target = "~/.zshrc", type = "template" }
-"zsh/cse.zsh"  = "~/.config/zsh/scripts/cse.zsh"
-"zsh/1521.zsh" = "~/.config/zsh/scripts/1521.zsh"
+"zsh/motd.zsh" = "~/.config/zsh/motd.zsh"
+"zsh/scripts/cse.zsh"  = "~/.config/zsh/scripts/cse.zsh"
+"zsh/scripts/1521.zsh" = "~/.config/zsh/scripts/1521.zsh"
 
 [tmux.files]
 "tmux/.tmux.conf" = "~/.tmux.conf"
