@@ -37,6 +37,7 @@
   "session": {
     "trust_all_worktrees": true
   },
+  "restore_on_startup": "launchpad",
   "terminal": {
     "font_size": 12.0,
     "font_family": "MesloLGS NF",
