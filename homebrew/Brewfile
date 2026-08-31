@@ -1,4 +1,5 @@
 tap "areofyl/fetch", trusted: true
+tap "charmbracelet/tap"
 tap "domt4/autoupdate", trusted: { commands: ["autoupdate"] }
 tap "gromgit/fuse"
 tap "xxxbrian/tap"
@@ -25,8 +26,12 @@ brew "btop"
 brew "cava"
 # Console Bonsai is a bonsai tree generator, written in C using ncurses
 brew "cbonsai"
+# Manage your dotfiles across multiple diverse machines, securely
+brew "chezmoi"
 # Formatting tools for C, C++, Obj-C, Java, JavaScript, TypeScript
 brew "clang-format"
+# Cloudflare Tunnel client (formerly Argo Tunnel)
+brew "cloudflared"
 # Cross-platform make
 brew "cmake"
 # Console Matrix
@@ -35,6 +40,8 @@ brew "cmatrix"
 brew "deno"
 # Pack, ship and run any application as a lightweight container
 brew "docker", link: false
+# Dotfile manager and templater written in rust
+brew "dotter"
 # Perl lib for reading and writing EXIF metadata
 brew "exiftool"
 # Modern, maintained replacement for ls
@@ -49,6 +56,8 @@ brew "ffmpeg"
 brew "gmp"
 # Play, record, convert, and stream many audio and video codecs
 brew "ffmpeg-full"
+# Banner-like program prints strings as ASCII art
+brew "figlet"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
 # Command-line fuzzy finder written in Go
@@ -69,6 +78,8 @@ brew "gnupg"
 brew "go@1.23", link: true
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick-full"
+# Update of iperf: measures TCP, UDP, and SCTP bandwidth
+brew "iperf3"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Open-source, cross-platform JavaScript runtime environment
@@ -77,6 +88,8 @@ brew "node"
 brew "pandoc"
 # Interactive environments for writing and running code
 brew "jupyterlab"
+# Handy way to save and run project-specific commands
+brew "just"
 # Simple terminal UI for git commands
 brew "lazygit"
 # Next-gen compiler infrastructure
@@ -117,6 +130,8 @@ brew "telnet"
 brew "texlive"
 # Terminal multiplexer
 brew "tmux"
+# Color-based alternative to figlet (uses libcaca)
+brew "toilet"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Markup-based typesetting system
@@ -135,6 +150,8 @@ brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 # 3D rotating system fetch for your terminal
 brew "areofyl/fetch/fetch-git", args: ["HEAD"], trusted: true
+# Generate images of code and terminal output.
+brew "charmbracelet/tap/freeze", trusted: true
 # File system client based on SSH File Transfer Protocol
 brew "gromgit/fuse/sshfs-mac", trusted: true
 # Utility tool for UNSW CSE students to run course commands locally
