@@ -105,6 +105,9 @@
           "name": "ruff"
         }
       }
+    },
+    "Lua": {
+      "tab_size": 2
     }
   },
   "auto_install_extensions": {
@@ -148,7 +151,7 @@
   "theme_overrides": {
     "Catppuccin Mocha - No Italics": {
       "border": "#1E1E2E",
-      "border.variant": "#1E1E2E",
+      // "border.variant": "#1E1E2E",
     },
   },
   "scrollbar": {
