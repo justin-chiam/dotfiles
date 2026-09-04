@@ -71,4 +71,4 @@ fi
 # <<< otty shell integration <<<
 
 # Zoxide
-eval "$(zoxide init zsh)"
+eval "$(zoxide init --cmd cd zsh)"
