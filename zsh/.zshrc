@@ -20,6 +20,7 @@ export CPPFLAGS="$CPPFLAGS -I/opt/homebrew/opt/llvm/include"
 
 typeset -U path PATH
 path=(
+  "$HOME/.local/python-bin/"
   /opt/homebrew/opt/llvm/bin
   /opt/homebrew/bin
   /opt/homebrew/sbin
@@ -51,8 +52,6 @@ done
 unset _f
 
 # ---- Aliases ----
-alias python="/usr/local/bin/python3"
-alias pip="/usr/local/bin/pip3"
 alias code='codium'
 alias gits='git status'
 alias uni='cd ~/uni'
@@ -70,3 +69,6 @@ if [ -n "$OTTY_SHELL_INTEGRATION" ] && [ -r "$OTTY_SHELL_INTEGRATION/otty-integr
   . "$OTTY_SHELL_INTEGRATION/otty-integration.zsh"
 fi
 # <<< otty shell integration <<<
+
+# Zoxide
+eval "$(zoxide init zsh)"
