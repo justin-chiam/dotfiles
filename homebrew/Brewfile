@@ -4,6 +4,8 @@ tap "domt4/autoupdate", trusted: { commands: ["autoupdate"] }
 tap "gromgit/fuse"
 tap "xxxbrian/tap"
 tap "xykong/tap"
+# Asciicast to GIF converter
+brew "agg"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
 # Command-line interface for SQLite
@@ -39,7 +41,7 @@ brew "cmatrix"
 # Secure runtime for JavaScript and TypeScript
 brew "deno"
 # Pack, ship and run any application as a lightweight container
-brew "docker", link: false
+brew "docker"
 # Dotfile manager and templater written in rust
 brew "dotter"
 # Perl lib for reading and writing EXIF metadata
@@ -75,7 +77,9 @@ brew "git"
 # GNU Privacy Guard (OpenPGP)
 brew "gnupg"
 # Open source programming language to build simple/reliable/efficient software
-brew "go@1.23", link: true
+brew "go@1.26", link: true
+# Configurable static site generator
+brew "hugo"
 # Tools and libraries to manipulate images in many formats
 brew "imagemagick-full"
 # Update of iperf: measures TCP, UDP, and SCTP bandwidth
@@ -100,6 +104,8 @@ brew "mole"
 brew "mpv"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Manage multiple Node.js versions
+brew "nvm"
 # Command-line Git information tool
 brew "onefetch"
 # Pinentry for GPG on Mac
@@ -184,8 +190,6 @@ cask "citrix-workspace"
 cask "claude"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
-# OpenAI's Codex desktop app for managing coding agents
-cask "codex-app"
 # Write, edit, and chat about your code with AI
 cask "cursor"
 # App to build and share containerised applications and microservices
@@ -201,6 +205,7 @@ cask "xykong/tap/flux-markdown", trusted: true
 cask "font-fira-code"
 cask "font-jetbrains-mono"
 cask "font-liberation-nerd-font"
+cask "font-space-grotesk"
 cask "font-symbols-only-nerd-font"
 # Set of tools to manage resources and applications hosted on Google Cloud
 cask "gcloud-cli"
@@ -238,6 +243,8 @@ cask "modrinth"
 cask "mullvad-vpn"
 # Open-source music notation software
 cask "musescore"
+# Neovim Client
+cask "neovide-app"
 # Open-source software for live streaming and screen recording
 cask "obs"
 # System and utility switches
@@ -353,3 +360,4 @@ vscode "vsls-contrib.gitdoc"
 vscode "xavc.xavc-mipsy-features"
 go "github.com/ibnaleem/gosearch"
 npm "bun"
+npm "ghost-cli"
