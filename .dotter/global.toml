@@ -43,5 +43,8 @@ default_target_type = "symbolic"
 "bat/themes/Catppuccin Mocha.tmTheme" = "~/.config/bat/themes/Catppuccin Mocha.tmTheme"
 "bat/config"                          = "~/.config/bat/config"
 
+[ccstatusline.files]
+"ccstatusline/settings.json" = "~/.config/ccstatusline/settings.json"
+
 [homebrew]
 [iterm2]
