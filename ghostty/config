@@ -12,7 +12,7 @@ shell-integration-features = no-cursor,sudo,title,ssh-env,ssh-terminfo,path
 copy-on-select = clipboard
 link-url = true
 
-window-padding-x = 0
+window-padding-x = 2
 window-padding-y = 0
 window-padding-balance = true
-window-padding-color = extend
+window-padding-color = background
