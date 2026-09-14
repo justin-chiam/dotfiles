@@ -49,5 +49,8 @@ default_target_type = "symbolic"
 [neovide.files]
 "neovide/config.toml" = "~/.config/neovide/config.toml"
 
+[linearmouse.files]
+"linearmouse/linearmouse.json" = "~/.config/linearmouse/linearmouse.json"
+
 [homebrew]
 [iterm2]
