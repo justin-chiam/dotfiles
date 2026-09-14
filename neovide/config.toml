@@ -1,0 +1,6 @@
+fork = true
+frame = "none"
+
+[font]
+normal = ["MesloLGS NF"]
+size = 13

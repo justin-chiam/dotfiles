@@ -1,7 +1,7 @@
 # cp .dotter/local.example.toml .dotter/local.toml
 # dotter deploy
 
-packages = ["ghostty", "nvim", "zsh", "tmux", "git", "rclone", "vscodium", "obsidian", "homebrew", "kitty", "bat", "ccstatusline"]
+packages = ["ghostty", "nvim", "zsh", "tmux", "git", "rclone", "vscodium", "obsidian", "homebrew", "kitty", "bat", "ccstatusline", "neovide"]
 
 [variables]
 zid = "z0000000"

@@ -46,5 +46,8 @@ default_target_type = "symbolic"
 [ccstatusline.files]
 "ccstatusline/settings.json" = "~/.config/ccstatusline/settings.json"
 
+[neovide.files]
+"neovide/config.toml" = "~/.config/neovide/config.toml"
+
 [homebrew]
 [iterm2]
