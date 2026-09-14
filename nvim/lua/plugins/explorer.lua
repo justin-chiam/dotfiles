@@ -7,8 +7,8 @@ return {
   opts = {
     picker = {
       sources = {
-        explorer = { hidden = true, exclude = exclude() },
-        files = { hidden = true, exclude = exclude() },
+        explorer = { ignored = true, hidden = true, exclude = exclude() },
+        files = { ignored = true, hidden = true, exclude = exclude() },
         grep = { hidden = true, exclude = exclude() },
       },
     },
