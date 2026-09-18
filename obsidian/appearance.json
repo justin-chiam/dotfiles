@@ -2,5 +2,8 @@
   "cssTheme": "",
   "interfaceFontFamily": "",
   "translucency": false,
-  "textFontFamily": "Inter"
+  "textFontFamily": "Inter",
+  "enabledCssSnippets": [
+    "larger-math"
+  ]
 }

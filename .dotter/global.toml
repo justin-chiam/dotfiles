@@ -27,10 +27,11 @@ default_target_type = "symbolic"
 "vscodium/keybindings.json" = "~/Library/Application Support/VSCodium/User/keybindings.json"
 
 [obsidian.files]
-"obsidian/app.json"               = "~/Library/Mobile Documents/com~apple~CloudDocs/Obsidian Vault/.obsidian/app.json"
-"obsidian/appearance.json"        = "~/Library/Mobile Documents/com~apple~CloudDocs/Obsidian Vault/.obsidian/appearance.json"
-"obsidian/core-plugins.json"      = "~/Library/Mobile Documents/com~apple~CloudDocs/Obsidian Vault/.obsidian/core-plugins.json"
-"obsidian/community-plugins.json" = "~/Library/Mobile Documents/com~apple~CloudDocs/Obsidian Vault/.obsidian/community-plugins.json"
+"obsidian/app.json"                 = "~/Library/Mobile Documents/com~apple~CloudDocs/Obsidian Vault/.obsidian/app.json"
+"obsidian/appearance.json"          = "~/Library/Mobile Documents/com~apple~CloudDocs/Obsidian Vault/.obsidian/appearance.json"
+"obsidian/core-plugins.json"        = "~/Library/Mobile Documents/com~apple~CloudDocs/Obsidian Vault/.obsidian/core-plugins.json"
+"obsidian/community-plugins.json"   = "~/Library/Mobile Documents/com~apple~CloudDocs/Obsidian Vault/.obsidian/community-plugins.json"
+"obsidian/snippets/larger-math.css" = "~/Library/Mobile Documents/com~apple~CloudDocs/Obsidian Vault/.obsidian/snippets/larger-math.css"
 
 [zed.files]
 "zed/settings.json" = "~/.config/zed/settings.json"
