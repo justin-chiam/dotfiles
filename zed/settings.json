@@ -93,9 +93,6 @@
       ],
       "show_wrap_guides": true
     },
-    "LaTeX": {
-      "soft_wrap": "editor_width"
-    },
     "Plain Text": {
       "soft_wrap": "editor_width"
     },
@@ -105,6 +102,9 @@
           "name": "ruff"
         }
       }
+    },
+    "LaTeX": {
+      "soft_wrap": "editor_width"
     },
     "Lua": {
       "tab_size": 2
@@ -216,6 +216,31 @@
 
         "git_integration": true
       }
+    },
+    "texlab": {
+      "settings": {
+        "texlab": {
+          "build": {
+            "executable": "/Library/TeX/texbin/latexmk",
+            "args": [
+              "-pdf",
+              "-synctex=1",
+              "-interaction=nonstopmode",
+              "-outdir=output",
+              "%f"
+            ],
+            "onSave": true,
+            "forwardSearchAfter": true,
+            "auxDirectory": "output",
+            "logDirectory": "output",
+            "pdfDirectory": "output"
+          },
+          "forwardSearch": {
+            "executable": "/Applications/Skim.app/Contents/SharedSupport/displayline",
+            "args": ["-r", "-g", "%l", "%p", "%f"]
+          }
+        }
+      }
     }
-  }
+  },
 }
