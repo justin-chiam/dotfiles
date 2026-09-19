@@ -157,7 +157,8 @@
   "scrollbar": {
     "axes": {
       "horizontal": false
-    }
+    },
+    "cursors": false
   },
   "title_bar": {
     "show_user_picture": false,
