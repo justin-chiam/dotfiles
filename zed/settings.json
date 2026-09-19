@@ -108,6 +108,9 @@
     },
     "Lua": {
       "tab_size": 2
+    },
+    "Nunjucks": {
+      "tab_size": 2
     }
   },
   "auto_install_extensions": {
