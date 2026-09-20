@@ -88,11 +88,25 @@
   ],
   "languages": {
     "C": {
-      "wrap_guides": [
-        80
-      ],
+      "wrap_guides": [80],
       "show_wrap_guides": true
     },
+    // comp1531 js/ts styles
+    "JavaScript": {
+      "tab_size": 2,
+      "hard_tabs": false,
+      "wrap_guides": [100],
+      "show_wrap_guides": true
+    },
+    "TypeScript": {
+      "tab_size": 2,
+      "hard_tabs": false,
+      "wrap_guides": [100],
+      "show_wrap_guides": true
+    },
+    "TSX": { "tab_size": 2 },
+    "JSON": { "tab_size": 2 },
+    "JSONC": { "tab_size": 2 },
     "Plain Text": {
       "soft_wrap": "editor_width"
     },
