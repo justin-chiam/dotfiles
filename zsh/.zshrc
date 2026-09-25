@@ -55,6 +55,7 @@ unset _f
 alias code='codium'
 alias gits='git status'
 alias uni='cd ~/uni'
+alias lg='lazygit'
 
 # ---- Version manager (must come after PATH) ----
 eval "$(~/.local/bin/mise activate zsh)"
