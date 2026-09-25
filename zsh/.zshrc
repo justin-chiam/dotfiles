@@ -58,6 +58,7 @@ alias uni='cd ~/uni'
 
 # ---- Version manager (must come after PATH) ----
 eval "$(~/.local/bin/mise activate zsh)"
+eval "$(rbenv init - zsh)"
 
 # ---- Prompt ----
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
