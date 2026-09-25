@@ -58,5 +58,8 @@ default_target_type = "symbolic"
 [lazygit.files]
 "lazygit/config.yml" = "~/.config/lazygit/config.yml"
 
+[starship.files]
+"starship/starship.toml" = "~/.config/starship/starship.toml"
+
 [homebrew]
 [iterm2]

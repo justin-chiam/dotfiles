@@ -1,0 +1,25 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+add_newline = false
+
+right_format = '$cmd_duration'
+
+[line_break]
+disabled = true
+
+[git_status]
+format = '([$ahead_behind](green) )([$stashed](green) )([$conflicted](red) )([$staged](yellow) )([$modified](yellow) )([$deleted](yellow) )([$untracked](blue) )([$renamed](yellow) )'
+ahead = '⇡${count}'
+behind = '⇣${count}'
+diverged = '⇣${behind_count}⇡${ahead_count}'
+up_to_date = ''
+stashed = '*${count}'
+conflicted = '~${count}'
+staged = '+${count}'
+modified = '!${count}'
+deleted = '✘${count}'
+untracked = '?${count}'
+renamed = '»${count}'
+
+[gcloud]
+disabled = true

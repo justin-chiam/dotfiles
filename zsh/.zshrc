@@ -1,12 +1,6 @@
-# Powerlevel10k instant prompt. Keep near the top.
-# Anything that may require console input (password prompts, [y/n]) goes above this.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-
 # ---- Oh My Zsh ----
 export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME="powerlevel10k/powerlevel10k"
+ZSH_THEME=""
 plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 source "$ZSH/oh-my-zsh.sh"
 
@@ -39,6 +33,7 @@ path=(
 export GPG_TTY=$(tty)
 export HOMEBREW_NO_ENV_HINTS=1
 export SSH_AUTH_SOCK="$HOME/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
+export STARSHIP_CONFIG=~/.config/starship/starship.toml
 
 # CSE
 export CSE_ZID={{ zid }}
@@ -78,3 +73,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # Zoxide
 eval "$(zoxide init --cmd cd zsh)"
+
+# Starship prompt
+eval "$(starship init zsh)"
