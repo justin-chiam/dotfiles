@@ -11,4 +11,4 @@ nvim-update:
 
 # Scan for any secret leaks
 check-leaks:
-    gitleaks detech --source .
+    betterleaks detect --source .
