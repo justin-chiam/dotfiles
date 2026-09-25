@@ -8,3 +8,7 @@ brew-dump:
 # Update all Neovim plugins (lazy.nvim: install + clean + update)
 nvim-update:
     nvim --headless "+Lazy! sync" +qa
+
+# Scan for any secret leaks
+check-leaks:
+    gitleaks detech --source .
