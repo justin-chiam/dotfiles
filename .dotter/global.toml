@@ -17,6 +17,8 @@ default_target_type = "symbolic"
 "tmux/.tmux.conf" = "~/.tmux.conf"
 
 [git.files]
+"git/.gitconfig"        = "~/.gitconfig"
+"git/.gitconfig-unsw"   = { target = "~/.gitconfig-unsw", type = "template" }
 "git/.gitignore_global" = "~/.gitignore_global"
 
 [rclone.files]

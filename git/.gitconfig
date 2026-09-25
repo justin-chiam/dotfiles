@@ -1,0 +1,58 @@
+[user]
+	name = Justin Chiam
+	email = 235694260+justin-chiam@users.noreply.github.com
+	signingKey = B3E7994E74A31431
+
+[core]
+	editor = nvim
+	pager = delta
+	excludesFile = ~/.gitignore_global
+
+[commit]
+	gpgSign = true
+[tag]
+	gpgSign = true
+[gpg]
+	program = /opt/homebrew/bin/gpg
+
+[init]
+	defaultBranch = main
+[fetch]
+	prune = true
+[pull]
+	rebase = true
+[rebase]
+	autoStash = true
+	updateRefs = true
+[push]
+	autoSetupRemote = true
+[merge]
+	conflictStyle = zdiff3
+[rerere]
+	enabled = true
+	autoUpdate = true
+[diff]
+	algorithm = histogram
+
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+	dark = true
+
+[credential]
+	helper =
+	helper = /usr/local/share/gcm-core/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[credential "https://git.overleaf.com"]
+	provider = generic
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+
+[includeIf "gitdir:~/uni/"]
+	path = ~/.gitconfig-unsw

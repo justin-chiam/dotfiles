@@ -1,0 +1,9 @@
+[user]
+    name = Justin Chiam
+    email = {{ zid }}@unsw.edu.au
+[commit]
+    gpgSign = false
+[tag]
+    gpgSign = false
+[pull]
+    rebase = false
