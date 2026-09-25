@@ -55,5 +55,8 @@ default_target_type = "symbolic"
 [linearmouse.files]
 "linearmouse/linearmouse.json" = "~/.config/linearmouse/linearmouse.json"
 
+[lazygit.files]
+"lazygit/config.yml" = "~/.config/lazygit/config.yml"
+
 [homebrew]
 [iterm2]

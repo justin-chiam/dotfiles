@@ -1,0 +1,20 @@
+gui:
+  nerdFontsVersion: "3"
+  showRandomTip: false
+
+git:
+  autoFetch: true
+  diffRenderers:
+    - type: stdinFilter
+      name: delta
+      colorArg: always
+      command: delta --dark --paging=never
+
+os:
+  editPreset: nvim
+
+disableStartupPopups: true
+confirmOnQuit: false
+promptToReturnFromSubprocess: false
+update:
+  method: never
