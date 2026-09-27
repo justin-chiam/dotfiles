@@ -12,6 +12,7 @@ default_target_type = "symbolic"
 "zsh/motd.zsh" = "~/.config/zsh/motd.zsh"
 "zsh/scripts/cse.zsh"  = "~/.config/zsh/scripts/cse.zsh"
 "zsh/scripts/1521.zsh" = "~/.config/zsh/scripts/1521.zsh"
+"zsh/.hushlogin"       = "~/.hushlogin"
 
 [tmux.files]
 "tmux/.tmux.conf" = "~/.tmux.conf"
