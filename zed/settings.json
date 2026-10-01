@@ -18,7 +18,8 @@
   },
   "tabs": {
     "git_status": true,
-    "file_icons": true
+    "file_icons": true,
+    "activate_on_close": "neighbour"
   },
   "tab_bar": {
     "show_pinned_tabs_in_separate_row": false,
@@ -26,7 +27,7 @@
     "show_nav_history_buttons": false
   },
   "ui_font_family": ".ZedSans",
-  "buffer_font_family": "Menlo",
+  "buffer_font_family": "MesloLGS NF",
   "icon_theme": "Soft Charmed Icons",
   "cli_default_open_behavior": "existing_window",
   "telemetry": {
