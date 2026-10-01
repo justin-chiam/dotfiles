@@ -3,7 +3,7 @@ default:
 
 # Update homebrew/Brewfile to match currently installed packages
 brew-dump:
-    brew bundle dump --file=homebrew/Brewfile --force
+    brew bundle dump --file=homebrew/Brewfile --force --no-vscode
 
 # Update all Neovim plugins (lazy.nvim: install + clean + update)
 nvim-update:
