@@ -26,6 +26,10 @@
     "show_tab_bar_buttons": true,
     "show_nav_history_buttons": false
   },
+  "vim_mode": false,
+  "vim": {
+    "toggle_relative_line_numbers": true
+  },
   "ui_font_family": ".ZedSans",
   "buffer_font_family": "MesloLGS NF",
   "icon_theme": "Soft Charmed Icons",
@@ -87,6 +91,8 @@
     "**/.settings",
     "**/*.dSYM"
   ],
+  "auto_signature_help": false,
+  "show_signature_help_after_edits": false,
   "languages": {
     "C": {
       "wrap_guides": [80],
