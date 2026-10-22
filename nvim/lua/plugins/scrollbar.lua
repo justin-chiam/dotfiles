@@ -1,40 +1,33 @@
 return {
   "petertriho/nvim-scrollbar",
+  branch = "refactor/v2",
   dependencies = { "lewis6991/gitsigns.nvim" },
   event = "BufReadPost",
   opts = {
-    show_in_active_only = true,
-    hide_if_all_visible = false,
-    throttle_ms = 16,
-    handle = {
-      hide_if_all_visible = true,
-      color = "#989eb6",
-      blend = 0,
+    exclude = {
+      filetypes = {
+        snacks_dashboard = true,
+        snacks_picker_list = true,
+        snacks_picker_input = true,
+        snacks_notif = true,
+        lazy = true,
+        mason = true,
+        trouble = true,
+      },
     },
-    handlers = {
+    providers = {
       cursor = false,
-      diagnostic = true,
-      gitsigns = true,
-      handle = true,
       search = false,
+      marks = false,
+      gitsigns = true,
     },
-    excluded_filetypes = {
-      "blink-cmp-menu",
-      "dropbar_menu",
-      "dropbar_menu_fzf",
-      "DressingInput",
-      "cmp_docs",
-      "cmp_menu",
-      "noice",
-      "prompt",
-      "TelescopePrompt",
-      "snacks_dashboard",
-      "snacks_picker_list",
-      "snacks_picker_input",
-      "snacks_notif",
-      "lazy",
-      "mason",
-      "trouble",
+    scrollbar = {
+      visibility = "active",
+      layout = { columns = { { "thumb", "marks" } } },
+      thumb = {
+        blend = 0,
+        highlight = { bg = "#989eb6" },
+      },
     },
   },
 }

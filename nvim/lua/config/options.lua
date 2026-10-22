@@ -11,3 +11,9 @@ if vim.g.neovide then
   vim.g.neovide_text_gamma = 0.8
   vim.g.neovide_text_contrast = 0.0
 end
+
+-- no symbol breadcrumbs in lualine; dropbar shows them in the winbar
+vim.g.trouble_lualine = false
+
+-- one statusline per split instead of LazyVim's single global one
+vim.opt.laststatus = 2

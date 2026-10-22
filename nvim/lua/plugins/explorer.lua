@@ -7,7 +7,12 @@ return {
   opts = {
     picker = {
       sources = {
-        explorer = { ignored = true, hidden = true, exclude = exclude() },
+        explorer = {
+          ignored = true,
+          hidden = true,
+          exclude = exclude(),
+          toggles = { hidden = false, ignored = false },
+        },
         files = { ignored = true, hidden = true, exclude = exclude() },
         grep = { hidden = true, exclude = exclude() },
       },
