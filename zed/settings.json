@@ -47,10 +47,11 @@
     "font_size": 13.0,
     "font_family": "MesloLGS NF",
     "copy_on_select": true,
-    "default_height": 250
+    "default_height": 240
   },
   "project_panel": {
     "dock": "left",
+    "starts_open": true,
     "auto_fold_dirs": false
   },
   "base_keymap": "VSCode",
