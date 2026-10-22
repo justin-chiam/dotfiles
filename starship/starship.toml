@@ -7,6 +7,17 @@ right_format = '$cmd_duration'
 [line_break]
 disabled = true
 
+# [username]
+# show_always = true
+# style_user = 'green bold'
+# style_root = 'red bold'
+# format = '[$user]($style)'
+
+# [hostname]
+# ssh_only = false
+# style = 'green bold'
+# format = '[@$hostname]($style) '
+
 [git_status]
 format = '([$ahead_behind](green) )([$stashed](green) )([$conflicted](red) )([$staged](yellow) )([$modified](yellow) )([$deleted](yellow) )([$untracked](blue) )([$renamed](yellow) )'
 ahead = '⇡${count}'

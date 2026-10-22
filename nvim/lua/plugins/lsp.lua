@@ -8,5 +8,5 @@ return {
         emmet_ls = {},
       },
     },
-  }
+  },
 }
