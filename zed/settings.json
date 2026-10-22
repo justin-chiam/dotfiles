@@ -178,13 +178,16 @@
   "theme": {
     "mode": "system",
     "light": "Ayu Light",
-    "dark": "Catppuccin Mocha - No Italics",
+    "dark": "oc-2",
   },
   "theme_overrides": {
     "Catppuccin Mocha - No Italics": {
       "border": "#1E1E2E",
       // "border.variant": "#1E1E2E",
     },
+  },
+  "cursor_animation": {
+    "enabled": true,
   },
   "scrollbar": {
     "axes": {
