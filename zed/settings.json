@@ -11,7 +11,10 @@
     "dock": "right",
     "button": true,
     "favorite_models": [],
-    "model_parameters": []
+    "model_parameters": [],
+    "threads_sidebar": {
+      "auto_open": false
+    }
   },
   "edit_predictions": {
     "provider": "none"
@@ -44,10 +47,11 @@
   },
   "restore_on_startup": "launchpad",
   "terminal": {
-    "font_size": 13.0,
+    "font_size": 12.0,
     "font_family": "MesloLGS NF",
     "copy_on_select": true,
-    "default_height": 240
+    "default_height": 240,
+    "starts_open": true
   },
   "project_panel": {
     "dock": "left",
