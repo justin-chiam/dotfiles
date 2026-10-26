@@ -131,6 +131,7 @@
     "Plain Text": {
       "soft_wrap": "editor_width"
     },
+    "Markdown": { "tab_size": 4 },
     "Python": {
       "formatter": {
         "language_server": {
